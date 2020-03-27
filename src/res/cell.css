@@ -1,0 +1,34 @@
+.cell {
+    -fx-border-color: lightgray;
+    -fx-background-color: white;
+}
+
+.static Text {
+    -fx-font-weight: bolder;
+}
+
+.cell.grid-highlight {
+    -fx-background-color: rgba(1, 220, 195, 0.5);
+}
+
+.cell.change-highlight {
+    -fx-background-color: #0074d9;
+}
+
+.cell.num-highlight {
+    -fx-background-color: yellow;
+}
+
+.cell.select-highlight {
+    -fx-background-color: rgba(169, 169, 169, 0.6);
+    -fx-border-color: #555;
+    -fx-border-width: 3px;
+}
+
+.cell.conflict-highlight {
+    -fx-background-color: red;
+}
+
+.cell.select-highlight.conflict-highlight {
+    -fx-background-color: darkred;
+}

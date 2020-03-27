@@ -1,0 +1,93 @@
+.side-bar {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-background-color: rgba(212, 237, 247, 0.3);
+}
+
+.action-pane .button, .action-pane .toggle-button {
+    -fx-padding: 20px 28px;
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center 5px;
+    -fx-background-color: transparent;
+}
+
+.action-pane .button:hover, .action-pane .toggle-button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.action-pane .toggle-button:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+
+.action-pane .toggle-button:selected:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+}
+
+.action-pane .pencil-toggle {
+    -fx-background-image: url("/res/pencil.png");
+}
+
+.action-pane .clear-cell {
+    -fx-background-image: url("/res/sweep.png");
+}
+
+.action-pane .reveal-cell {
+    -fx-background-image: url("/res/lens.png");
+}
+
+.action-pane .clear-mark {
+    -fx-background-image: url("/res/clear.png");
+}
+
+.action-pane .shuffle {
+    -fx-background-image: url("/res/ghost.png");
+}
+
+.log-area {
+}
+
+.server-prompt {
+    -fx-spacing: 4px;
+    -fx-alignment: center;
+}
+
+.server-prompt .button {
+    -fx-padding: 6px;
+}
+
+.num-grid {
+    -fx-alignment: center;
+    -fx-hgap: 0px;
+    -fx-vgap: 0px;
+}
+
+.num-grid .button {
+    -fx-padding: 6px;
+}
+
+.num-grid .num-text {
+    -fx-font-size: 16px;
+}
+
+.num-grid .count-text {
+    -fx-font-size: 10px;
+}
+
+.num-grid .count-text.exceed-limit {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+
+.action-pane {
+    -fx-alignment: center;
+}
+
+.board-pane {
+    -fx-alignment: center;
+    -fx-grid-lines-visible: true;
+}
+
+.grid-0-0, .grid-0-2, .grid-1-1, .grid-2-0, .grid-2-2 {
+    -fx-background-color: #87CEFA;
+}
